@@ -17,13 +17,14 @@ public class Knight : MonoBehaviour
     public int MoveSpeed = 5;
     [Header("¬O§_¯à¨¾¿m")]
     public bool Defense = false;
-    
+
     #endregion
 
     //Áä½L¾Þ§@
 
     #region
-    
+
+    [Header("¾Þ§@«öÁä")]
     public KeyCode keycode;
     public KeyCode keyCodeAttack = KeyCode.Mouse0;
     public KeyCode keyCodeMoveLeft = KeyCode.D;
